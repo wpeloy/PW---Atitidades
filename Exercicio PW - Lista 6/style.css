@@ -1,0 +1,36 @@
+
+
+    .Geral {
+      
+        background-color: black;
+        margin: 2rem;
+        padding-top: 2rem;
+        padding-left: 33rem;
+        color: white;
+        align-items: center; 
+        border-radius: 20%;
+        font-family: 'Courier New', Courier, monospace;
+        justify-content: center;
+        
+       
+    
+    }
+
+
+  
+    .Nome {
+        font-display: auto;
+        color: blue;
+    }
+
+    .Descrição {
+        font-size: medium;
+        font-family: 'Courier New', Courier, monospace;
+
+
+    }
+
+   
+    .Conclusão { 
+       padding-right: 25rem;
+    }
