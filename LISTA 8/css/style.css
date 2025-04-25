@@ -1,0 +1,262 @@
+@import url(variables.css);
+@import url(reset.css);
+
+body{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.login-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    font-size: 14px;
+    color: #333;
+    width: 350px;
+
+    h2 {
+        font-size: 24px;
+        color: #333;
+    }
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    background-color: orangered;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.navleft{
+    display: flex;
+    align-items: center;
+}
+
+.navright{
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 800px;
+    padding: 10px;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 320px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    width: 380px;
+    height: 380px;
+    padding: 10px;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.card:hover{
+    transition: 0.25s;
+    transform: scale(1.01);
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.imagem{
+    align-self: center;
+    width: 360px;
+    height: 60%;
+    background-color: purple;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-self: flex-start;
+    overflow: hidden;
+    gap: 5px;
+}
+
+a{
+    align-self: flex-start;
+    padding: 10px;
+    background-color: orangered;
+    margin-top: auto;
+    color: white;
+}
+
+a:hover{
+   
+    border-radius: 15px;
+    text-decoration: underline;
+    
+}
+
+.tutoriais{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid hsl(192, 100%, 75%)
+}
+
+.tutorial-card{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    height: 100px;
+    gap: 10px;
+    margin-bottom: 10px;
+    border: 2px solid hsl(192, 100%, 75%)
+}
+
+.tutorial-card:hover{
+    transition: 0.1s;
+    transform: scale(1.01);
+}
+
+.tutorial-img{
+    flex-shrink: 0;
+    width: 85px;
+    height: 85px;
+    overflow: hidden;
+    position: relative;
+}
+
+h3{
+    height: 85px;
+}
+
+.ad-card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px;
+    gap: 10px;
+    border: 2px solid hsl(192, 100%, 75%);
+    align-items: center;
+}
+
+.ad-img{
+    width: 300px;
+    height: 250px;
+}
+
+.ad-img:hover{
+    transition: 0.25s;
+    transform: scale(1.01);
+}
+
+form {
+    width: 100%;
+}
+
+.form-group {
+    input {
+        width: 100%;
+        border: 1px solid #ccc;
+        padding: 8px;
+        margin-bottom: 20px;
+        color: #666;
+    }
+    
+    label {
+        font-size: 16px;
+        color: #666;
+        padding-bottom: 5px;
+        display: block;
+    }
+}
+
+.remember {
+    color: #666;
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.if {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.if.error-message {
+    color: red;
+}
+
+.if.success-message {
+    color: green;
+}
+
+.button {
+    background-color: rgb(80, 164, 219);
+    font-size: 16px;
+    color: #fff;
+    border: 0;
+    padding: 8px 42px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: hsl(204, 66%, 50%);
+}
+
+.registro-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-registro{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
